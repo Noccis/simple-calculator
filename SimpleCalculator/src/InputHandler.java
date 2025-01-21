@@ -9,7 +9,7 @@ public class InputHandler {
 
     public double getNumber() {
         while (!scanner.hasNextDouble()) {
-            System.out.println("Fel: Ange ett giltigt tal.");
+            System.out.println("Fel input. Du behöver ange siffror.");
             scanner.next();
         }
         double number = scanner.nextDouble();
