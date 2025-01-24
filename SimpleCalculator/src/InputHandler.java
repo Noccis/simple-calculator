@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class InputHandler {
     private Scanner scanner = new Scanner(System.in);
 
-    public String getOperation() {
-        // This is for creating a conflict
-        return scanner.nextLine();
 
+
+    public String getOperation() {
+        return scanner.nextLine();
     }
 
     public double getNumber() {
